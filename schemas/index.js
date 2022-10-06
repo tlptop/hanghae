@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 
 const connect = () => {
   mongoose
-    .connect("mongodb://127.0.0.1/prac") 
+    .connect("mongodb://127.0.0.1/prac3") 
     .catch(err => console.log(err));
 };
 

@@ -27,4 +27,4 @@ const postsSchema = new mongoose.Schema(
   }
 );
 
-module.exports = mongoose.model("Posts", postsSchema); // 여기서 보내주는 것. "Posts" 알파벳은 중요한 게 아닌듯.
+module.exports = mongoose.model("Posts", postsSchema); // 여기서 보내주는 것. "Posts" 알파벳은 상징적인 것. 아무렇게나 써도 기능적으로 이상X.

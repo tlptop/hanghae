@@ -15,7 +15,6 @@ router.post("/:postId", async (req,res) => { // 7.작성
 });
 
 
-
 router.get("/:postId", async (req, res) => { // 6.특정 게시글의 댓글 목록 조회
     const {postId} = req.params; //특정 게시물을 가진 postId 를 넘겨주기 위해서 생성.
     const commentList = await Comments.find({postId}).sort("-createdAt"); // find({postId}) => 게시글이 갖고있는 postId
